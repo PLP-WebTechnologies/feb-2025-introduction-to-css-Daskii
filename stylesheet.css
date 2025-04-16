@@ -1,0 +1,59 @@
+/* 1. Universal selector to reset spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Body element */
+body {
+  font-family: 'Courier New', Courier, monospace; /* Different font */
+  background-color: #fdf6e3;
+  color: #333;
+  padding: 20px;
+}
+
+/* 3. Header element */
+header {
+  background-color: #3a86ff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 4px solid #264653;
+}
+
+/* Style an image */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 10px 0;
+  border: 3px solid #3a86ff;
+  display: block;
+}
+
+/* Class selector for sections */
+.intro, .services {
+  background-color: #ffffff;
+  margin: 20px 0;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+/* List styling */
+.services ul {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #264653;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  margin-top: 20px;
+}
+
